@@ -24,6 +24,7 @@ decision_tree_clssifier=pickle.load(open(best_model, 'rb'))
 #Function to clean text
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.corpus import stopwords
 import re
 from nltk.stem import  PorterStemmer, WordNetLemmatizer
